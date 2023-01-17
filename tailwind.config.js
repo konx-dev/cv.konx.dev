@@ -6,11 +6,17 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'playfair': ['Playfair Display', 'serif'],
+      'opensans': ['Open Sans', 'sans-serif']
+    },
     colors: {
-      navy: '#0A192F',
-      teal: '#5BE8C9',
-      grey: '#8892B0',
-      'grey--light': '#0A192F'
+      brand: {
+        navy: '#0A192F',
+        teal: '#5BE8C9',
+        grey: '#8892B0',
+        white: '#CCD6F6'
+      }
     },
     extend: {},
   },
