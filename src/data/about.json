@@ -1,6 +1,6 @@
 {
     "sectionTitle": "About me",
-    "description": "<p>Currently 3.5 years in the industry, currently working as middleweight web developer for <a href='https://www.nzime.com/' rel='nofollow' target='_blank'>Nzime</a>. A Nottingham based digital agency with a wide range of clients from e-commerce sites for tartan clothing to a student accommodation provider.</p>",
+    "description": "<p>I have been working in the web development industry for three and a half years, and I am currently employed as a middleweight web developer at <a href='https://www.nzime.com/' rel='nofollow' target='_blank'>Nzime</a>. A digital agency based in Nottingham that offers a variety of services. I enjoy working on diverse and challenging projects that allow me to apply my skills and learn new technologies.</p>",
     "skills" : {
         "skillsTitle": "<p>Core technologies I’ve been working with recently:</p>",
         "skillsArray": ["Vue.js", "Nuxt", "JavaScript (ES6+)", "TailwindCSS", "GraphQL", "CraftCMS"]
