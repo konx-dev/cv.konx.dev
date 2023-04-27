@@ -4,5 +4,6 @@
     "skills" : {
         "skillsTitle": "<p>Notable core technologies I’ve been working with:</p>",
         "skillsArray": ["Vue.js", "Nuxt", "JavaScript (ES6+)", "TailwindCSS", "GraphQL", "CraftCMS"]
-    }
+    },
+    "personal": "<p>When I'm not working I'm probably having to throw a ball for Rolo, our minuature daschund. I love to travel with most recent trips to NYC for christmas and then skiing down the slopes of the Panorama mountain resort in Canada.</p>"
 }
