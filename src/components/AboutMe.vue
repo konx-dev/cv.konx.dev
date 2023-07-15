@@ -4,7 +4,7 @@
     <div class="about__body text-brand-grey text-sm md:text-base leading-relaxed font-opensans" v-html="data.description" />
     <div>
       <div class="text-brand-grey text-sm md:text-base leading-relaxed font-opensans" v-html="data.skills.skillsTitle" />
-      <div class="flex flex-row flex-wrap my-4 max-w-[600px]">
+      <div class="flex flex-row flex-wrap my-4 max-w-[700px]">
         <div class="min-w-[160px] my-1" v-for="(item,index) in data.skills.skillsArray" :key="index">
           <span class="text-brand-teal mr-1">•</span><span class="text-sm md:text-base font-opensans text-brand-grey">{{ item }}</span>
         </div>

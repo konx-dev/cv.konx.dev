@@ -4,12 +4,12 @@
         {
             "title": "Development",
             "tools": "Vue.js, Nuxt.js, TailwindCSS, JavaScript (ES6+), SCSS, CraftCMS, GIT, Webpack, GraphQL, Vite",
-            "description": "<p>Strong understanding of the fundamentals in HTML, CSS & JavaScript. Working with modern standardisations such as CSS Grid and current ECMAScript.</p><p>Day to day I use Nuxt.js but also keen on exploring other JavaScript frameworks such as Next.js (React) for SSG and SSR. As JavaScript can be utilised on both the front and backend, I am working on side projects to have a working knowledge of the full stack with node based content management systems such as Strapi.</p>"
+            "description": "<p>Strong understanding of the fundamentals in HTML, CSS & JavaScript. Working with modern standardisations such as CSS Grid and current ECMAScript.</p><p>Day to day I use Nuxt.js but am also keen on exploring other JavaScript frameworks such as Next.js (React) for SSG and SSR. As JavaScript can be utilised on both the front and backend, I am working on side projects to have a working knowledge of the full stack with node based content management systems such as Strapi and Directus.</p>"
         },
         {
             "title": "Design",
             "tools": "Figma, Illustrator, InDesign, Photoshop",
-            "description": "<p>During my industry experience as a Graphic Designer I've worked extensively across the Adobe CC product range, Illustrator is my go-to for vector-based design, also for any illustration work I do. Photoshop for anything pixel based and image editing. InDesign for editorial and layout.</p><p>For prototyping / wireframing I use Figma. With the latter, I've found the ability to share my designs and receive live feedback through just a web browser requiring no software besides a browser on the clients end creates a frictionless experience for feedback.</p>"
+            "description": "<p>During my industry experience as a Graphic Designer I've worked extensively across the Adobe CC product range, Illustrator is my go-to for vector-based design, also for any illustration work I do. Photoshop for anything pixel-based and image editing. InDesign for editorial and layout.</p><p>For prototyping/wireframing I use Figma. With the latter, I've found the ability to share my designs and receive live feedback through just a web browser requiring no software besides a browser on the client end creates a frictionless experience for feedback.</p>"
         }
     ]
 }
