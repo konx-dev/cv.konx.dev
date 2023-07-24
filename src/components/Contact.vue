@@ -5,10 +5,10 @@
             <a class="bg-brand-teal text-brand-navy font-opensans py-4 px-8 rounded" href="mailto:hire@konx.dev">hello@konx.dev</a>
         </div>
         <div class="flex justify-center gap-3">
-            <a href="https://www.linkedin.com/in/oliverjamescox/" rel="nofollow" target="_blank">
+            <a href="https://www.linkedin.com/in/oliverjamescox/" aria-label="linkedin" rel="nofollow" target="_blank">
                 <font-awesome-icon class="text-xl md:text-2xl text-brand-white hover:text-brand-teal" :icon="['fab', 'linkedin']" />
             </a>
-            <a href="https://github.com/konx-dev" rel="nofollow" target="_blank">
+            <a href="https://github.com/konx-dev" aria-label="github" rel="nofollow" target="_blank">
                 <font-awesome-icon class="text-xl md:text-2xl text-brand-white hover:text-brand-teal" :icon="['fab', 'github']" />
             </a>
         </div>
