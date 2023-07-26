@@ -1,1 +1,6 @@
-{}
+{
+	"printWidth": 120,
+	"useTabs": true,
+	"bracketSameLine": true,
+	"vueIndentScriptAndStyle": true
+}

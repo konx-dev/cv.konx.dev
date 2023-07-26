@@ -1,17 +1,17 @@
 {
-  "sectionTitle": "Education",
-  "education": [
-    {
-      "title": "BA(Hons): Graphic Design",
-      "location": "Nottingham Trent University, Nottingham"
-    },
-    {
-      "title": "BTEC: National Diploma: Graphic Design",
-      "location": "New College Stamford, Stamford"
-    },
-    {
-      "title": "GCSE's: 9 A - C's (including Graphic Design)",
-      "location": "Casterton Community College, Casterton"
-    }
-  ]
+	"sectionTitle": "Education",
+	"education": [
+		{
+			"title": "BA(Hons): Graphic Design",
+			"location": "Nottingham Trent University, Nottingham"
+		},
+		{
+			"title": "BTEC: National Diploma: Graphic Design",
+			"location": "New College Stamford, Stamford"
+		},
+		{
+			"title": "GCSE's: 9 A - C's (including Graphic Design)",
+			"location": "Casterton Community College, Casterton"
+		}
+	]
 }
