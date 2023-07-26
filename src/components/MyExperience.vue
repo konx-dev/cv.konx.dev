@@ -7,7 +7,8 @@
 			<div v-for="(role, index) in data.roles" :key="index" class="mb-5 md:mb-8">
 				<div class="mb-2 md:mb-4">
 					<h3 class="mb-2 font-playfair text-lg leading-tight text-brand-teal md:text-xl">
-						{{ role.title }}, {{ role.company }}
+						{{ role.title }},
+						{{ role.company }}
 					</h3>
 					<h4 class="font-opensans text-xs uppercase text-brand-white md:text-sm">
 						{{ role.date }}
