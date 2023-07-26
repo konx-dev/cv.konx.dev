@@ -1,35 +1,31 @@
 # cv.konx.dev
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Vue 3 with vite SPA for my current cv, hosted via netlify
 
 ## Project Setup
 
 ```sh
-npm install
+pnpm install
+```
+
+The project uses Prettier and ESLint, the first is configured to format on commit, with the latter on save. Prettier uses husky to perform a pre-commit hook.
+
+```sh
+pnpm prepare
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Code Quality & Formatting
 
-```sh
-npm run lint
-```
+TBC - Expand on Prettier & ESLint config for the project
