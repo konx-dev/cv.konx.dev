@@ -20,10 +20,6 @@
 		</div>
 	</div>
 </template>
-
-<script setup>
-	import data from "../data/experience.json";
-</script>
 <style>
 	.experience__body p {
 		margin-bottom: 10px;

@@ -11,7 +11,7 @@
 				class="font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
 				v-html="data.skills.skillsTitle" />
 			<div class="my-4 flex max-w-[700px] flex-row flex-wrap">
-				<div class="my-1 min-w-[160px]" v-for="(item, index) in data.skills.skillsArray" :key="index">
+				<div v-for="(item, index) in data.skills.skillsArray" :key="index" class="my-1 min-w-[160px]">
 					<span class="mr-1 text-brand-teal">•</span
 					><span class="font-opensans text-sm text-brand-grey md:text-base">{{ item }}</span>
 				</div>

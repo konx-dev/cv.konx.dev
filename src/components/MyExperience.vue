@@ -4,26 +4,26 @@
 			{{ data.sectionTitle }}
 		</h2>
 		<div>
-			<div class="mb-5" v-for="(set, index) in data.sets" :key="index">
-				<div class="mb-2">
+			<div v-for="(role, index) in data.roles" :key="index" class="mb-5 md:mb-8">
+				<div class="mb-2 md:mb-4">
 					<h3 class="mb-2 font-playfair text-lg leading-tight text-brand-teal md:text-xl">
-						{{ set.title }}
+						{{ role.title }}, {{ role.company }}
 					</h3>
-					<h4 class="font-opensans text-xs uppercase text-brand-white md:text-base">
-						{{ set.tools }}
+					<h4 class="font-opensans text-xs uppercase text-brand-white md:text-sm">
+						{{ role.date }}
 					</h4>
 				</div>
 
 				<div
 					class="experience__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
-					v-html="set.description" />
+					v-html="role.description" />
 			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
-	import data from "../data/tools.json";
+	import data from "../data/experience.json";
 </script>
 <style>
 	.experience__body p {

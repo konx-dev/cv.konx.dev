@@ -7,13 +7,13 @@
 			<!-- About -->
 			<AboutMe />
 			<!-- Experience -->
-			<Experience />
+			<MyExperience />
 			<!-- Tools & Tech -->
-			<Tools />
+			<ToolsUsed />
 			<!-- Education -->
-			<Education />
+			<MyEducation />
 			<!-- Contact -->
-			<Contact />
+			<ContactMe />
 		</div>
 	</div>
 </template>
@@ -21,9 +21,9 @@
 <script setup>
 	// Component Imports
 	import AboutMe from "./components/AboutMe.vue";
-	import Experience from "./components/Experience.vue";
-	import Education from "./components/Education.vue";
-	import Tools from "./components/Tools.vue";
-	import Contact from "./components/Contact.vue";
+	import MyExperience from "./components/MyExperience.vue";
+	import MyEducation from "./components/MyEducation.vue";
+	import ToolsUsed from "./components/ToolsUsed.vue";
+	import ContactMe from "./components/ContactMe.vue";
 	import KonxDev from "./components/Assets/KonxDev.vue";
 </script>

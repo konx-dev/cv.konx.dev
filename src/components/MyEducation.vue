@@ -4,7 +4,7 @@
 			{{ data.sectionTitle }}
 		</h2>
 		<div>
-			<div class="mb-5 md:mb-8" v-for="(role, index) in data.education" :key="index">
+			<div v-for="(role, index) in data.education" :key="index" class="mb-5 md:mb-8">
 				<div class="mb-2 md:mb-4">
 					<h3 class="mb-2 font-playfair text-base leading-tight text-brand-teal md:text-xl">
 						{{ role.title }}
