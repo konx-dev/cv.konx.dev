@@ -1,21 +1,21 @@
 <template>
 	<div class="mb-10 md:mb-12">
-		<h2 class="text-brand-white font-playfair text-2xl md:text-3xl mb-5">
+		<h2 class="mb-5 font-playfair text-2xl text-brand-white md:text-3xl">
 			{{ data.sectionTitle }}
 		</h2>
 		<div>
 			<div class="mb-5 md:mb-8" v-for="(role, index) in data.roles" :key="index">
 				<div class="mb-2 md:mb-4">
-					<h3 class="font-playfair text-brand-teal text-lg md:text-xl leading-tight mb-2">
+					<h3 class="mb-2 font-playfair text-lg leading-tight text-brand-teal md:text-xl">
 						{{ role.title }}, {{ role.company }}
 					</h3>
-					<h4 class="font-opensans text-brand-white text-xs md:text-sm uppercase">
+					<h4 class="font-opensans text-xs uppercase text-brand-white md:text-sm">
 						{{ role.date }}
 					</h4>
 				</div>
 
 				<div
-					class="experience__body font-opensans text-brand-grey text-sm md:text-base leading-relaxed"
+					class="experience__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
 					v-html="role.description" />
 			</div>
 		</div>

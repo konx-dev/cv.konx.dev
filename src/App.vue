@@ -1,7 +1,7 @@
 <template>
-	<div class="bg-brand-navy h-full min-h-screen w-full">
-		<div class="container max-w-[1000px] py-10 md:py-20 px-6 lg:px-0 mx-auto">
-			<div class="max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto mb-8 md:mb-12 lg:mb-20">
+	<div class="h-full min-h-screen w-full bg-brand-navy">
+		<div class="container mx-auto max-w-[1000px] px-6 py-10 md:py-20 lg:px-0">
+			<div class="mx-auto mb-8 max-w-[160px] md:mb-12 md:max-w-[200px] lg:mb-20 lg:max-w-[300px]">
 				<KonxDev />
 			</div>
 			<!-- About -->

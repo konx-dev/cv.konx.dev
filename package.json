@@ -7,7 +7,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-		"prettier": "exec prettier . --write",
+		"prettier": "exec prettier . --write --ignore-unknown --plugin=prettier-plugin-tailwindcss",
 		"prepare": "husky install"
 	},
 	"lint-staged": {
@@ -30,6 +30,7 @@
 		"lint-staged": "^13.2.3",
 		"postcss": "^8.4.27",
 		"prettier": "^2.8.8",
+		"prettier-plugin-tailwindcss": "^0.4.1",
 		"tailwindcss": "^3.3.3",
 		"vite": "^4.4.6"
 	}

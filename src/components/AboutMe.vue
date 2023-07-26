@@ -1,24 +1,24 @@
 <template>
 	<div class="mb-10 md:mb-12">
-		<h2 class="text-brand-white font-playfair text-2xl md:text-3xl mb-2">
+		<h2 class="mb-2 font-playfair text-2xl text-brand-white md:text-3xl">
 			{{ data.sectionTitle }}
 		</h2>
 		<div
-			class="about__body text-brand-grey text-sm md:text-base leading-relaxed font-opensans"
+			class="about__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
 			v-html="data.description" />
 		<div>
 			<div
-				class="text-brand-grey text-sm md:text-base leading-relaxed font-opensans"
+				class="font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
 				v-html="data.skills.skillsTitle" />
-			<div class="flex flex-row flex-wrap my-4 max-w-[700px]">
-				<div class="min-w-[160px] my-1" v-for="(item, index) in data.skills.skillsArray" :key="index">
-					<span class="text-brand-teal mr-1">•</span
-					><span class="text-sm md:text-base font-opensans text-brand-grey">{{ item }}</span>
+			<div class="my-4 flex max-w-[700px] flex-row flex-wrap">
+				<div class="my-1 min-w-[160px]" v-for="(item, index) in data.skills.skillsArray" :key="index">
+					<span class="mr-1 text-brand-teal">•</span
+					><span class="font-opensans text-sm text-brand-grey md:text-base">{{ item }}</span>
 				</div>
 			</div>
 		</div>
 		<div
-			class="about__body text-brand-grey text-sm md:text-base leading-relaxed font-opensans"
+			class="about__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
 			v-html="data.personal" />
 	</div>
 </template>
