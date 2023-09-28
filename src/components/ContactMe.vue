@@ -7,12 +7,12 @@
 			>
 		</div>
 		<div class="flex justify-center gap-3">
-			<a href="https://www.linkedin.com/in/oliverjamescox/" aria-label="linkedin" rel="nofollow" target="_blank">
+			<a href="https://www.linkedin.com/in/oliverjamescox/" aria-label="linkedin" rel="noopener noreferrer" target="_blank">
 				<font-awesome-icon
 					class="text-xl text-brand-white hover:text-brand-teal md:text-2xl"
 					:icon="['fab', 'linkedin']" />
 			</a>
-			<a href="https://github.com/konx-dev" aria-label="github" rel="nofollow" target="_blank">
+			<a href="https://github.com/konx-dev" aria-label="github" rel="noopener noreferrer" target="_blank">
 				<font-awesome-icon
 					class="text-xl text-brand-white hover:text-brand-teal md:text-2xl"
 					:icon="['fab', 'github']" />

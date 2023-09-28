@@ -14,17 +14,17 @@
 						{{ role.date }}
 					</h4>
 				</div>
-
-				<div
-					class="experience__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
-					v-html="role.description" />
+				<div class="experience__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base">
+					<render-html :html="role.description" />
+				</div>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
-	import data from "../data/experience.json";
+import RenderHtml from './RenderHtml.vue';
+import data from "../data/experience.json";
 </script>
 <style>
 	.experience__body p {

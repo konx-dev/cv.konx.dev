@@ -13,17 +13,19 @@
 						{{ set.tools }}
 					</h4>
 				</div>
-
-				<div
-					class="experience__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base"
-					v-html="set.description" />
+				<div class="experience__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base">
+					<render-html :html="set.description" />
+				</div>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
-	import data from "../data/tools.json";
+import data from "../data/tools.json";
+
+import RenderHtml from './RenderHtml.vue';
+
 </script>
 <style>
 	.experience__body p {

@@ -13,8 +13,6 @@
 						{{ role.location }}
 					</h4>
 				</div>
-
-				<div class="experience__body font-opensans text-sm leading-relaxed text-brand-grey" v-html="role.description" />
 			</div>
 		</div>
 	</div>
