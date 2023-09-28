@@ -1,32 +1,38 @@
 <template>
-  <div class="mb-10 md:mb-12">
-    <h2 class="text-brand-white font-playfair text-2xl md:text-3xl mb-2">{{ data.sectionTitle }}</h2>
-    <div class="about__body text-brand-grey text-sm md:text-base leading-relaxed font-opensans" v-html="data.description" />
-    <div>
-      <div class="text-brand-grey text-sm md:text-base leading-relaxed font-opensans" v-html="data.skills.skillsTitle" />
-      <div class="flex flex-row flex-wrap my-4 max-w-[700px]">
-        <div class="min-w-[160px] my-1" v-for="(item,index) in data.skills.skillsArray" :key="index">
-          <span class="text-brand-teal mr-1">•</span><span class="text-sm md:text-base font-opensans text-brand-grey">{{ item }}</span>
-        </div>
-      </div>
-    </div>
-    <div class="about__body text-brand-grey text-sm md:text-base leading-relaxed font-opensans" v-html="data.personal" />
-  </div>
+	<div class="mb-10 md:mb-12">
+		<h2 class="mb-2 font-playfair text-2xl text-brand-white md:text-3xl">
+			{{ data.sectionTitle }}
+		</h2>
+		<div class="about__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base">
+			<render-html :html="data.description" />
+		</div>
+		<div>
+			<div class="font-opensans text-sm leading-relaxed text-brand-grey md:text-base">
+				<render-html :html="data.skills.skillsTitle" />
+			</div>
+			<div class="my-4 flex max-w-[700px] flex-row flex-wrap">
+				<div v-for="(item, index) in data.skills.skillsArray" :key="index" class="my-1 min-w-[160px]">
+					<span class="mr-1 text-brand-teal">•</span
+					><span class="font-opensans text-sm text-brand-grey md:text-base">{{ item }}</span>
+				</div>
+			</div>
+		</div>
+		<div class="about__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base">
+			<render-html :html="data.personal" />
+		</div>
+	</div>
 </template>
 
 <script setup>
-import data from '../data/about.json'
-
-
-
+	import RenderHtml from "./RenderHtml.vue";
+	import data from "../data/about.json";
 </script>
 <style>
-.about__body p {
-  margin-bottom: 10px;
-}
+	.about__body p {
+		margin-bottom: 10px;
+	}
 
-.about__body a {
-  color: #5BE8C9;
-}
+	.about__body a {
+		color: #5be8c9;
+	}
 </style>
-  

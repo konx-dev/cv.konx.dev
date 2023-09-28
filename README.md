@@ -28,4 +28,11 @@ pnpm build
 
 ## Code Quality & Formatting
 
-TBC - Expand on Prettier & ESLint config for the project
+### Code Quality
+
+This is handled by Eslint and the various associated plugins, it leverages vite (vite-plugin-eslint) in order to check CODE QUALITY ONLY and will fail on any rules not passed, warnings such as missing indexes are automatically fixed.
+
+### Formatting
+
+Handled by Prettier, this aims to introduce consistent formatting throughout the project such as tabs rather than spaces, trailing commas etc. To format either run the command `pnpm format` before committing or if using a supported IDE such as vscode configure via the prettier extension to format on save.
+A Prettier plugin is configured on this project to re-order the tailwind classes as per the plugins preference (base > components > utilities). media queries and modifiers also follow after.
