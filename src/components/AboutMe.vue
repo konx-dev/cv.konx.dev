@@ -1,5 +1,5 @@
 <template>
-	<div class="mb-10 md:mb-12">
+	<section class="mb-10 md:mb-12">
 		<h2 class="mb-2 font-playfair text-2xl text-brand-white md:text-3xl">
 			{{ data.sectionTitle }}
 		</h2>
@@ -20,7 +20,7 @@
 		<div class="about__body font-opensans text-sm leading-relaxed text-brand-grey md:text-base">
 			<render-html :html="data.personal" />
 		</div>
-	</div>
+	</section>
 </template>
 
 <script setup>
