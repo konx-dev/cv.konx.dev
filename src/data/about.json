@@ -3,7 +3,16 @@
 	"description": "<p>Currently working as a middleweight developer at a Nottingham-based agency. I have over four years of industry experience working on both greenfield and brownfield projects. Areas of specialization include frontend technologies, technical SEO, accessibility and web performance.</p><p>I enjoy working on a wide range of projects that require a variety of skills that allow me to utilize my expertise to deliver high-quality results and expand my knowledge while staying up-to-date with the latest industry advancements.</p>",
 	"skills": {
 		"skillsTitle": "<p>Notable core stack technologies I’ve been working with:</p>",
-		"skillsArray": ["Vue.js 2/3", "Nuxt 2/3", "JavaScript (ES6+)", "TailwindCSS", "Vuex/Pinia", "GraphQL", "CraftCMS"]
+		"skillsArray": [
+			"Vue.js 2/3",
+			"Nuxt 2/3",
+			"JavaScript (ES6+)",
+			"TailwindCSS",
+			"Vuex/Pinia",
+			"Node.JS",
+			"GraphQL",
+			"CraftCMS"
+		]
 	},
 	"personal": "<p>When I'm not working I'm probably having to throw a ball for Rolo, our miniature daschund. I love to travel with most recent trips to NYC for Christmas and then skiing down the slopes of the Panorama mountain resort in Canada.</p>"
 }
